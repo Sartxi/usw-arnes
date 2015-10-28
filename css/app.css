@@ -1,0 +1,120 @@
+body {
+	font: normal 400 100%/1.4em "proxima-nova", "helvetica neue", helvetica, sans-serif;
+	background: #f2f2f2;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "museo-sans-rounded",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+ul.pg { padding-left:40px;}
+/* --------------Overwrites----------------------------- */
+.row {max-width: 75.5em;}
+.top-bar { margin-bottom: 0; background: #333;}
+.top-bar ul > li a:not(.button) {
+	color: #eee;
+	font-weight: normal;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	background: #333;
+}
+.top-bar-section ul li>a { background: #333;}
+.top-bar-section ul li>a:hover {
+	background: #444;
+	transition: background-color 1s ease; 
+}
+.top-bar-section>ul>.divider, .top-bar-section>ul>[role="separator"] {
+	border-right: solid 1px #333;
+	border-left: solid 1px #666;
+}
+.top-bar-section .dropdown { font-size: 0.8em;}
+.contain-to-grid { background: #333; padding: 10px 0;}
+.contain-to-grid .top-bar {
+	max-width: 75.5em;
+	margin: 0 auto;
+	margin-bottom: 0;
+}
+span.logname {
+	display: block;
+	padding: 0 15px;
+	line-height: 43px;
+}
+
+/* --------------Custom Styles----------------------------- */
+a { color: #EB921B;}
+a:hover { color: orange;}
+button, .button { background-color: #EB921B; border-color: #EB921B;}
+button:hover, button:focus, .button:hover, .button:focus { background-color: orange; text-decoration: none;}
+.heroic-head {
+	max-width:100% !important;
+    max-height:100% !important;
+    min-height: 594px;
+	display: block;
+	overflow: hidden;
+	background: #f2f2f2 url('../images/heroichead.jpg') 50% 17% no-repeat;
+	padding-top: 38px;
+}
+.pagehead {
+	max-width:100% !important;
+    max-height:100% !important;
+    min-height: 150px;
+	display: block;
+	overflow: hidden;
+	padding-top: 38px;
+	margin-bottom: 17px;
+}
+.pilotcars {background: #f2f2f2 url('../images/heroichead-two.jpg') 50% 53% no-repeat;}
+.heroic-head .row { max-width: 950px;}
+.hero-head { width: 100%; display: block; clear: both; text-align: center;}
+.hm-top-cta {
+	display: block;
+	width: 100%;
+	text-align: center;
+	background: white;
+	background: rgba(225, 225, 225, 0.4);
+	margin: 0 auto;
+	margin-bottom: 1em;
+	padding: 15px;
+	border:3px solid white;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+}
+.on:hover, .tu:hover, .tr:hover { background: rgba(225, 225, 225, 0.9); text-decoration: none;}
+.on:hover { border:5px solid #018aff; transition: border-color 1s ease; }
+.tu:hover { border:5px solid #00FF00; transition: border-color 1s ease; }
+.tr:hover { border:5px solid orange; transition: border-color 1s ease; }
+
+.midpageCO { 
+	max-width:100% !important;
+    max-height:100% !important;
+	display: block;
+	overflow: hidden;
+	background: white;
+	padding: 25px 0;
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+}
+.midpageCO .panel { margin-bottom: 0;}
+.social { width: 145px; margin: 0 auto;}
+.social>li { margin: 0 auto;}
+
+/* Mobile Specific */
+@media (max-width: 479px) {
+	.welcomeimg { width: 224px; display: block; margin: 0 auto; overflow: hidden;}
+	.peopleimg { width: 197px; display: block; margin: 0 auto; overflow: hidden;}
+	.hero-head p { padding: 0 15px;}
+	.hero-head p, .hero-head h1 { text-shadow: 1px 1px 1px #fff;}
+}
+
+/*------------------Footer Styles--------------------------------------- */
+.arnes-foot-top h1, .arnes-foot-top h2, .arnes-foot-top h3, .arnes-foot-top h4, .arnes-foot-top h5, .arnes-foot-top h6, .arnes-foot-top p { color: white;}
+.arnes-foot-top { background: #555; padding: 30px 0 45px; text-align: center; color: white;}
+.arnes-foot-bottom { background: #444; padding: 10px 0; color:white;}
+.arnes-foot-bottom a { color: #018aff}
+.arnes-foot-bottom a:hover { color: #33BCFF}
+.social-foot { width: 145px; margin: 0 auto; margin-top: 11px;}
+.social-foot>li { margin: 0 auto;}
+.top-bar .toggle-topbar.menu-icon a span { right:9px!important;}
+::-webkit-scrollbar{width:8px;background-color:transparent}::-webkit-scrollbar:hover{background-color:rgba(255,255,255,0.6)}::-webkit-scrollbar-thumb:vertical{background:rgba(0,0,0,0.2)}::-webkit-scrollbar-thumb:vertical:active{background:rgba(0,0,0,0.4)}
